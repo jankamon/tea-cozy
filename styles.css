@@ -87,3 +87,27 @@ main {
 .tea-blocks h4 {
     margin-top: 10px;
 }
+
+.locations {
+    height: 500px;
+    width: 1200px;
+    background-image: url("./images/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location-block {
+    background-color: black;
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.locations-text {
+    margin-top: 100px;
+    margin-bottom: -100px;
+    z-index: 1;
+}
