@@ -17,7 +17,7 @@ header {
     border-bottom: 1px solid seashell;
     background-color: black;
     align-items: center;
-    
+    z-index: 1;
 }
 
 header img {
@@ -43,10 +43,11 @@ a {
 }
 
 main {
-    margin-top: 69px;
+    padding-top: 69px;
     display: flex;
     justify-content: center;
-
+    align-items: center;
+    flex-direction: column;
 }
 
 .mission {
@@ -61,4 +62,28 @@ main {
     position: absolute;
     background-color: black;
     width: 1202px;
+}
+
+.tea-blocks {
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    width: 1000px;
+    justify-content: center;
+}
+
+.tea-month-text {
+    width: 1000px;
+    padding-top: 69px;
+}
+
+.tea-blocks img {
+    height: 200px;
+    width: 300px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.tea-blocks h4 {
+    margin-top: 10px;
 }
